@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  font-family: 'Oswald', sans-serif;
+}
+.menu{
+  display:flex;
+  align-items:center;
+  width: 1440px;
+  height: 110px; 
+  justify-content:space-between;
+}
+.menu__logo{
+  font-weight: 500;
+  font-size: 36px;
+  text-transform:uppercase;
+}
+.menu__ul{
+  display:flex;
+  justify-content:space-around;
+  width: 500px;
+  list-style-type:none;
+}
+.menu__li{
+  text-decoration:none;
+  font-weight: 300;
+  font-size: 24px;
+  color:#000000;
+}
+.menu__title{
+  display:flex;
+  align-items:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:665px;
+  width: 1440px;
+  justify-content:space-around;
+  background-image:url(https://source.unsplash.com/vSuQJKZkt4U/1920x1080)
+}
+.menu__text{
+  font-weight: 700;
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
