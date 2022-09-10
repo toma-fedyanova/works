@@ -45,3 +45,34 @@ body{
   text-transform: uppercase;
   color: #FFFFFF;
 }
+.margin__left{
+  width: 1440px;
+  height: 450px;
+  display:flex;
+  align-items:center;
+}
+.block__title{
+  font-weight: 500;
+  font-size: 36px;
+  color: #000000;
+  text-transform:uppercase;
+  text-decoration:none;
+  margin-left:674px;
+  height:150px;
+  display:flex;
+  align-items:center;
+}
+.img__1{
+  width: 600px;
+  height: 400px;
+  padding-left:80px;
+}
+.block__1__description{
+  padding-left:40px;
+  font-weight: 300;
+  font-size: 20px;
+}
+.block__2{
+  height:711px;
+  background-color:#EFEFEF;
+}
