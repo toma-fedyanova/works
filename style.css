@@ -16,12 +16,14 @@ body{
   font-weight: 500;
   font-size: 36px;
   text-transform:uppercase;
+  padding-left:80px;
 }
 .menu__ul{
   display:flex;
-  justify-content:space-around;
+  justify-content:space-between;
   width: 500px;
   list-style-type:none;
+  padding-right:80px;
 }
 .menu__li{
   text-decoration:none;
@@ -50,6 +52,7 @@ body{
   height: 450px;
   display:flex;
   align-items:center;
+  padding-bottom:39px;
 }
 .block__title{
   font-weight: 500;
@@ -75,4 +78,20 @@ body{
 .block__2{
   height:711px;
   background-color:#EFEFEF;
+}
+.margin__bottom{
+  display:flex;
+  justify-content:space-around;
+}
+.block__margin__bottom{
+  width: 365px;
+  height: 474px;
+  background-color:#FFFFFF;
+  padding-left:20px;
+  padding-top:20px;
+}
+.margin__bottom__photo{
+  width: 325px;
+  height: 216px;
+  padding-top:24px;
 }
