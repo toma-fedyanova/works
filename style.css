@@ -48,7 +48,7 @@ body{
   color: #FFFFFF;
 }
 .margin__left{
-  width: 1440px;
+  width: 1401px;
   height: 450px;
   display:flex;
   align-items:center;
@@ -78,10 +78,12 @@ body{
 .block__2{
   height:711px;
   background-color:#EFEFEF;
-}
+  width:1440px;
+ }
 .margin__bottom{
   display:flex;
   justify-content:space-around;
+  width:1440px;
 }
 .block__margin__bottom{
   width: 365px;
@@ -104,4 +106,20 @@ body{
   padding-right:20px;
   font-weight: 300;
   font-size: 18px;
+}
+.footer__top{
+  width: 1440px;
+  height: 337px;
+  background-color:#817070;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+}
+.footer__subscribe{
+  font-size: 36px;
+  font-weight:500;
+  text-decoration:none;
+  text-transform:uppercase;
+  color: #FFFFFF;
 }
